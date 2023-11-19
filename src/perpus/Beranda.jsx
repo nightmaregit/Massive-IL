@@ -5,6 +5,7 @@ export const Beranda = () => {
     <div>
         Beranda
         coba
+        lagi
     </div>
     
   )
