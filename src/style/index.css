@@ -47,7 +47,7 @@
  }
 
   .page-container {
-    @apply h-screen  flex items-center justify-center  ;
+    @apply h-screen p-0 m-0 flex items-center justify-center  ;
   }
   .logo-style {
     @apply h-72 w-72 transition hover:animate-spin cursor-pointer;
