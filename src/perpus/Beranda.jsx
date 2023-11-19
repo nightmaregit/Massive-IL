@@ -2,6 +2,10 @@ import React from 'react'
 
 export const Beranda = () => {
   return (
-    <div>Beranda</div>
+    <div>
+        Beranda
+        coba
+    </div>
+    
   )
 }
