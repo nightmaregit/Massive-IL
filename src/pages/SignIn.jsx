@@ -15,11 +15,12 @@ const SignIn = () => {
             {" "}
             <img src={Logo} className="" alt="" />{" "}
           </div>
-          <div className="textbagian2  leading-9 pb-[29px] pt-[13px] ">
+
+          <div className="textbagian2 leading-9 pb-[20px] pt-[3px] ">
             Masuk
           </div>
 
-          <button className="buttonMasukgoogle-signin  inline-flex items-center justify-center gap-4">
+          <button className="buttonMasukgoogle-signin  inline-flex items-center justify-center w-[370px] gap-4">
             <img src={google} className="w-10 h-10" alt="" />
             Masuk dengan Google
           </button>
@@ -34,16 +35,16 @@ const SignIn = () => {
             <div className="grow h-[0px] border border-black border-opacity-25"></div>
           </div>
 
-          <div>
+          <div className="">
             <form>
-              <div className="flex-col ">
+              <div className="flex-col  ">
                 {/* masukan Email */}
                 <div className="pt-[15px] ">
                   <label className="label-signin">
                     Email
-                    <div className="pt-[11px] ">
+                    <div className=" ">
                       <input
-                        className="input-signin w-[445px]"
+                        className="input-signin w-[370px]"
                         type="text"
                         placeholder="Masukan Email"
                       />
@@ -56,9 +57,9 @@ const SignIn = () => {
                 <div className="pt-[15px] ">
                   <label className="label-signin">
                     Kata Sandi
-                    <div className="pt-[11px] ">
+                    <div className=" ">
                       <input
-                        className="input-signin  w-[445px]"
+                        className="input-signin  w-[370px]"
                         type="text"
                         placeholder="Masukan Kata Sandi"
                       />
@@ -68,12 +69,12 @@ const SignIn = () => {
                 {/* masukan Kata Sandi end */}
 
                 {/* ingat saya lupa kata sandi */}
-                <div className="flex items-center mb-[39px] mt-[26px] w-full ">
+                <div className="flex items-center mb-[29px] mt-[16px] w-full ">
                   <input
                     id="default-checkbox "
                     type="checkbox"
                     value=""
-                    className="  w-[18px] h-[18px] text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
+                    className="w-[18px] h-[18px] text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 "
                   />
                   <label
                     for="default-checkbox"
@@ -94,7 +95,7 @@ const SignIn = () => {
                 <div className="">
                   <button
                     onClick={() => navigate("/")}
-                    className="buttonDaftar-signin w-[445px]  m-0 p-0"
+                    className="buttonDaftar-signin w-[370px]  m-0 p-0"
                   >
                     {" "}
                     Masuk{" "}
@@ -108,7 +109,7 @@ const SignIn = () => {
         {/* bagian1 end */}
 
         <div className="bagian1-signin">
-          <img src={Never} className="" alt="" />{" "}
+          <img src={Never} className="w-[380px] h-[380px]" alt="" />{" "}
           <div className="textbagian1">
             Daftar Untuk
             <br />
