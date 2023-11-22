@@ -7,6 +7,12 @@ export default {
           'Inter':['Inter', 'sans-serif'],
           'Montserrat':['Montserrat', 'sans-serif'],
       },
+      colors:{
+        perpus: '#FFF7E9',
+       masuk : '#0C356A',
+       frame :'#F3F6FF',
+       layanan:'#F3F6FF'
+     }
     },
   },
   plugins: [],

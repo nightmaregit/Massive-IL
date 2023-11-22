@@ -3,16 +3,15 @@ import LayananC from "../components/LayananC";
 import ArrowUP from "../components/arrowUP";
 import Bg_web from "../components/bg_web";
 import Footer from "../components/footer";
+import Kategori from "../components/kategori";
 import Navbar from "../components/navbar";
-// import {useNavigate} from 'react-router-dom'
 
-const Beranda = () => {
-  // const navigate = useNavigate
+const Koleksi = () => {
   return (
     <>
       <Navbar />
       <Bg_web />
-      <Content />
+      <Kategori />
       <LayananC />
       <ArrowUP />
       <Footer />
@@ -20,4 +19,4 @@ const Beranda = () => {
   );
 };
 
-export default Beranda;
+export default Koleksi;

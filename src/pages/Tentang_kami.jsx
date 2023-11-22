@@ -4,10 +4,8 @@ import ArrowUP from "../components/arrowUP";
 import Bg_web from "../components/bg_web";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-// import {useNavigate} from 'react-router-dom'
 
-const Beranda = () => {
-  // const navigate = useNavigate
+const Tentang_kami = () => {
   return (
     <>
       <Navbar />
@@ -20,4 +18,4 @@ const Beranda = () => {
   );
 };
 
-export default Beranda;
+export default Tentang_kami;
