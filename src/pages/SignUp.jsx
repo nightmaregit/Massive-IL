@@ -1,8 +1,10 @@
 import React from "react";
 import Reading from "../assets/Reading.png";
 import Logo from "../assets/Logo.png";
+import { useNavigate } from "react-router-dom";
 
 function SignUp() {
+  const navigate = useNavigate();
   return (
     <div className="page-container">
       <div className="SignIn ">
@@ -14,7 +16,13 @@ function SignUp() {
             <br />
             Memulai Petualanganmu
           </div>
-          <button className="buttonMasuk-signin "> Masuk </button>
+          <button
+            onClick={() => navigate("/masuk")}
+            className="buttonMasuk-signin "
+          >
+            {" "}
+            Masuk{" "}
+          </button>
         </div>
         {/* 1 end */}
 
