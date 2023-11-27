@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Background from "../assets/image/akun-bg.jpg";
 import ProfilePicture from "../assets/image/profile.png";
 import UploadButton from "../assets/image/UploadButton.png";
@@ -90,10 +90,10 @@ const Akun = () => {
                 </p>
               </div>
 
-              <div className="flex justify-end">
+              <div className="flex justify-end ">
                 <button className="text-xl leading-normal font-medium flex items-center justify-center gap-1 px-4 py-2 border border-solid rounded-[4px] border-[#0C6FD1] w-[108px] mr-[127px]">
                   <EditIcon />
-                  <span>Edit</span>
+                  <span className="">Edit</span>
                 </button>
               </div>
             </div>

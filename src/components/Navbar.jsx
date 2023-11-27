@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex text-lg">
           <button
             onClick={() => navigate("/")}
-            className="block px-3 hover:text-blue-700"
+            className="block px-3 hover:text-blue-700 "
           >
             Beranda
           </button>

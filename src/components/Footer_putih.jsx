@@ -1,4 +1,4 @@
-import logo from "../assets/image/Logo.png";
+// import logo from "../assets/image/Logo.png";
 import logo_putih from "../assets/image/logo_putih.png";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";

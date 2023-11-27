@@ -1,7 +1,7 @@
 import LayananC from "../components/LayananC";
 import ArrowUP from "../components/arrowUP";
 import Bg_web from "../components/Bg_web";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Welcome_beranda from "../components/Welcome_beranda.jsx";
 // import {useNavigate} from 'react-router-dom'
