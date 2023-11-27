@@ -10,7 +10,7 @@ function SignUp() {
       <div className="SignIn ">
         {/* 1 */}
         <div className="bagian1-signin">
-          <img src={Reading} className="w-[456px] h-[456px]" alt="" />
+          <img src={Reading} className="w-[380px] h-[380px]" alt="" />
           <div className="textbagian1">
             Masuk Untuk
             <br />
@@ -20,8 +20,7 @@ function SignUp() {
             onClick={() => navigate("/masuk")}
             className="buttonMasuk-signin "
           >
-            {" "}
-            Masuk{" "}
+            Masuk
           </button>
         </div>
         {/* 1 end */}
@@ -30,10 +29,10 @@ function SignUp() {
         <div className="bagian2-signin">
           <div className="w-full ">
             {" "}
-            <img src={Logo} className="" alt="" />{" "}
+            <img src={Logo} className="w-[40%] " alt="" />{" "}
           </div>
           {/* form */}
-          <div className="textbagian2 pb-[29px] ">Daftar</div>
+          <div className="textbagian2 pb-[19px] ">Daftar</div>
           <div>
             <form>
               <div className="flex-col ">
@@ -41,7 +40,7 @@ function SignUp() {
                 <div className="pt-[0px]">
                   <label className="label-signin  ">
                     Nama
-                    <div className="pt-[11px] ">
+                    <div className="pt-[6px] ">
                       <input
                         className="input-signin  "
                         type="text"
@@ -56,7 +55,7 @@ function SignUp() {
                 <div className="pt-[15px] ">
                   <label className="label-signin">
                     Email
-                    <div className="pt-[11px] ">
+                    <div className="pt-[6px] ">
                       <input
                         className="input-signin  "
                         type="text"
@@ -71,7 +70,7 @@ function SignUp() {
                 <div className="pt-[15px] ">
                   <label className="label-signin">
                     Kata Sandi
-                    <div className="pt-[11px] ">
+                    <div className="pt-[6px] ">
                       <input
                         className="input-signin  "
                         type="text"
@@ -83,7 +82,7 @@ function SignUp() {
                 {/* masukan Kata Sandi end */}
 
                 {/* button daftar */}
-                <div className="pt-[57px]">
+                <div className="pt-[49px]">
                   <button className="buttonDaftar-signin"> Daftar </button>
                 </div>
                 {/* button daftar end */}

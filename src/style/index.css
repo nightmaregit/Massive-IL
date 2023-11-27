@@ -11,19 +11,19 @@
   }
 
  .bagian1-signin{
- @apply  w-[515px] h-[698px]  bg-indigo-400 rounded-[20px] flex-col justify-start flex items-center ;
+ @apply  w-[441px] h-[598px]  bg-indigo-400 rounded-[20px] flex-col justify-start flex items-center ;
  }
 
  .textbagian1{
-  @apply text-center text-black text-[32px] font-semibold font-['Montserrat',sans-serif];
+  @apply text-center text-black text-[28px] font-semibold font-['Montserrat',sans-serif];
  }
 
  .bagian2-signin{
-  @apply w-[515px] h-[698px]  bg-orange-50 rounded-[20px] flex-col  justify-start  flex items-center;
+  @apply  w-[441px] h-[598px]  bg-orange-50 rounded-[20px] flex-col  justify-start  flex items-center;
   }
 
  .textbagian2{
-  @apply text-black text-center text-[40px] font-bold font-['Montserrat',sans-serif]  justify-center items-center ;
+  @apply text-black text-center text-[28px] font-bold font-['Montserrat',sans-serif]  justify-center items-center ;
  }
 
   .label-signin{
@@ -31,19 +31,19 @@
   }
 
   .input-signin{
-    @apply  w-[417px] h-[61px] bg-indigo-400 rounded-[5px] px-[22px]   placeholder-black placeholder-opacity-25 text-[15px] font-['Inter',sans-serif] font-medium ;
+    @apply  w-[348px] h-[51px] bg-indigo-400 rounded-[5px] px-[22px]   placeholder-black placeholder-opacity-25 text-[15px] font-['Inter',sans-serif] font-medium ;
   }
 
   .buttonMasuk-signin{
-    @apply w-[417px] h-[61px] bg-orange-50 rounded-[5px] text-black text-lg font-bold  m-5 ;
+    @apply w-[348px] h-[51px] bg-orange-50 rounded-[5px] text-black text-lg font-bold  m-5 ;
   }
 
  .buttonDaftar-signin{
-  @apply text-white text-lg font-semibold font-['Inter',sans-serif] w-[417px] h-[61px] bg-[#0C356A] rounded-[5px] ;
+  @apply text-white text-lg font-semibold font-['Inter',sans-serif] w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] ;
  }
 
  .buttonMasukgoogle-signin{
-  @apply w-[445px] h-[47px] bg-indigo-400 rounded-[5px] text-black text-[15px] font-semibold font-['Inter',sans-serif];
+  @apply w-[348px] h-[51px] bg-indigo-400 rounded-[5px] text-black text-[15px] font-semibold font-['Inter',sans-serif];
  }
 
   .page-container {
