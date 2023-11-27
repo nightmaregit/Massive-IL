@@ -1,9 +1,9 @@
-import Content from "../components/Content";
+import Content from "../components/Welcome_beranda.jsx";
 import LayananC from "../components/LayananC";
 import ArrowUP from "../components/arrowUP";
-import Bg_web from "../components/bg_web";
+import Bg_web from "../components/Bg_web";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
 const Layanan = () => {
   return (

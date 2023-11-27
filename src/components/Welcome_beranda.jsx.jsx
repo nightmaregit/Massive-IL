@@ -1,20 +1,21 @@
-import wave from "../assets/image/BgWave.png";
+// import wave from "../assets/image/BgWave.png";
 import fotos from "../assets/image/fotoS.png";
-import wave1 from "../assets/image/BG Wave(1).png";
+import frame1 from "../assets/image/frame1.png";
+import frame2 from "../assets/image/frame2.png";
 
-const Content = () => {
+const Welcome_beranda = () => {
   return (
     <>
       {/* 1 start */}
       <div>
-        <img src={wave} alt="" />
+        <img src={frame1} alt="" />
       </div>
       {/* 1 end */}
       {/* 2 start */}
-      <div className=" container mx-auto">
+      <div className=" container mx-auto ">
         <div className="shadow-xlrounded-lg p-10 ">
           <div className="text-center">
-            <span className=" font-bold text-5xl  ">Selamat Datang</span>
+            <span className=" font-bold text-5xl   ">Selamat Datang</span>
             <br />
             <span className=" font-bold text-5xl ">
               Di Perpustakaan SMAN 47 Jakarta
@@ -42,7 +43,7 @@ const Content = () => {
         </div>
       </div>
       <div>
-        <img src={wave1} alt="" />
+        <img src={frame2} alt="" />
       </div>
       {/* 2 end  */}
       {/* 3 start */}
@@ -52,4 +53,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Welcome_beranda;

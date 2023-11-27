@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* <button onClick={()=> navigate('/')} className=' uppercase font-bold text-3xl pr-14'>brand</button> */}
           <img src={logo} alt="logo" className="h-auto w-32" />
         </div>
-        <div className="flex text-xl">
+        <div className="flex text-lg">
           <button
             onClick={() => navigate("/")}
             className="block px-3 hover:text-blue-700"
@@ -39,7 +39,7 @@ const Navbar = () => {
             Tentang kami
           </button>
         </div>
-        <div className="flex text-xl">
+        <div className="flex text-lg">
           <button
             onClick={() => navigate("/masuk")}
             className="block px-3 hover:text-blue-700"

@@ -1,14 +1,14 @@
 import logo from "../assets/image/Logo.png";
+import logo_putih from "../assets/image/logo_putih.png";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 
-
-const Footer = () => {
+const Footer_putih = () => {
   return (
     <>
       {/* Footer container */}
-      <footer className="flex flex-col items-center bg-perpus  font-serif">
+      <footer className="flex flex-col items-center bg-masuk  font-serif text-white">
         <div className="container p-6">
           <div className="grid place-items-center md:grid-cols-2 lg:grid-cols-3">
             {/*First links section*/}
@@ -16,7 +16,7 @@ const Footer = () => {
               {/* <a href="#" className="uppercase font-bold text-6xl">
             brand
           </a> */}
-              <img src={logo} alt="" className="w-80" />
+              <img src={logo_putih} alt="" className="w-80" />
             </div>
             {/*Second links section*/}
             <div className="mb-6">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         {/*Copyright section*/}
-        <div className="w-full bg-masuk p-4 text-center text-white">
+        <div className="w-full bg-perpus p-4 text-center text-black">
           © 2023 All rights reserved - by
           <a href="#" className="">
             Startex
@@ -56,4 +56,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer_putih;

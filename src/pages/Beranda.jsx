@@ -1,9 +1,9 @@
-import Content from "../components/Content";
 import LayananC from "../components/LayananC";
 import ArrowUP from "../components/arrowUP";
-import Bg_web from "../components/bg_web";
+import Bg_web from "../components/Bg_web";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
+import Welcome_beranda from "../components/Welcome_beranda.jsx";
 // import {useNavigate} from 'react-router-dom'
 
 const Beranda = () => {
@@ -12,7 +12,7 @@ const Beranda = () => {
     <>
       <Navbar />
       <Bg_web />
-      <Content />
+      <Welcome_beranda />
       <LayananC />
       <ArrowUP />
       <Footer />

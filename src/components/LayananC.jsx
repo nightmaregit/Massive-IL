@@ -5,16 +5,17 @@ import perpus from "../assets/image/Library (1).png";
 
 const LayananC = () => {
   return (
-    <div className=" bg-layanan w-auto h-[619px] pl-24 pr-16">
+    <div className=" bg-masuk w-auto h-[619px] pl-24 pr-16 text-white">
       <div className=" ">
         <span className=" uppercase font-bold text-2xl">Layanan Kami</span>
         <p className=" text-xl">
           Dengan koleksi yang beragam dan fasilitas modern, perpustakaan kami
           bertujuan untuk <br /> memenuhi kebutuhan literasi dan pembelajaran
           siswa.
+          <hr className=" border mt-16"/>
         </p>
       </div>
-      <div className=" flex pt-[146px]">
+      <div className=" flex pt-[46px]">
         <div className=" ">
           <div className="flex">
             <div className=" py-[17px]">
