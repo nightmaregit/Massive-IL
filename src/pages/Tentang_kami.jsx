@@ -147,7 +147,7 @@ const Tentang_kami = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="">
               <img src={Library} className="h-[300px] w-[292px]" alt="" />
             </div>
           </div>
@@ -224,10 +224,11 @@ const Tentang_kami = () => {
 
       <div className="pt-96">
         <div className=" bg-[#0C356A] h-[496px] flex flex-row justify-center ">
-          <div>
+          <div className=" ">
             <Iframe
               url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1251747709202!2d106.77053897499064!3d-6.247231272756671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f11d4eaabb23%3A0xe094bdace28ce539!2sSMAN%2047%20Jakarta!5e0!3m2!1sen!2sid!4v1701176388999!5m2!1sen!2sid"
-              className="h-[545px] w-[1151px] bottom-72 relative"
+              
+              className="h-[500px] w-[1000px]  bottom-60 relative"
             />
           </div>
         </div>
