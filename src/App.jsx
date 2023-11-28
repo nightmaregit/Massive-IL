@@ -9,6 +9,7 @@ import Peminjaman from "./pages/Peminjaman";
 import Akun from "./pages/Akun";
 import EditAkun from "./pages/EditAkun";
 import DaftarKoleksi from "./pages/DaftarKoleksi";
+import Buku_pendidikan from "./pages/Buku_pendidikan";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/akun' element={<Akun />}></Route>
         <Route path='/akun/edit' element={<EditAkun />}></Route>
         <Route path='/daftar-koleksi' element={<DaftarKoleksi />}></Route>
+        <Route path='/koleksi/pendidikan' element={<Buku_pendidikan />}></Route>
       </Routes>
     </Router>
   );

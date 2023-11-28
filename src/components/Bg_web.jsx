@@ -3,7 +3,7 @@ const Bg_web = () => {
   return (
     <div className=" bg-masuk w-auto h-[350px]">
       <div>
-        <p className=" absolute top-40 left-[300px] text-white font-bold text-6xl text-center ">
+        <p className=" absolute top-40 left-[300px] text-white font-bold text-6xl text-center  ">
           Temukan Petualangan <br /> Baru di Setiap Halaman
         </p>
         <form className="pt-[270px]">

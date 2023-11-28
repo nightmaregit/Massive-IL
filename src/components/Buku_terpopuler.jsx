@@ -18,14 +18,14 @@ const Buku_terpopuler = () => {
           </i>
           <span className=" font-bold text-2xl">Buku Terpopuler</span>
         </div>
-        <div className="border px-4 py-4 shadow-lg border-black rounded-md mt-12">
+        <div className="border px-4 py-4 shadow-lg border-black  mt-12">
           <div className="grid grid-cols-6   ">
             <div className="">
               <img
                 onClick={() => navigate("")}
                 src={th_4}
                 alt=""
-                className=" transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Menanti Restu Langit</p>
             </div>
@@ -34,7 +34,7 @@ const Buku_terpopuler = () => {
                 onClick={() => navigate("")}
                 src={th_5}
                 alt=""
-                className=" transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Harga Sebuah Percaya Sebuah Novel</p>
             </div>
@@ -43,7 +43,7 @@ const Buku_terpopuler = () => {
                 onClick={() => navigate("")}
                 src={th_6}
                 alt=""
-                className=" transition ease-in-out border border-masuk  bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Laluba Sebuah Novel</p>
             </div>
@@ -52,7 +52,7 @@ const Buku_terpopuler = () => {
                 onClick={() => navigate("")}
                 src={th_7}
                 alt=""
-                className=" transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out :-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Gadis dan Galaksi Tak Dikenal </p>
             </div>
@@ -61,7 +61,7 @@ const Buku_terpopuler = () => {
                 onClick={() => navigate("")}
                 src={th_8}
                 alt=""
-                className=" transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out :-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Tentang Rasa</p>
             </div>
@@ -70,7 +70,7 @@ const Buku_terpopuler = () => {
                 onClick={() => navigate("")}
                 src={th_9}
                 alt=""
-                className=" transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110 rounded-lg duration-300"
+                className=" transition ease-in-out :-translate-y-1 hover:scale-110  duration-300"
               />
               <p>Seuntai Harapan</p>
             </div>
