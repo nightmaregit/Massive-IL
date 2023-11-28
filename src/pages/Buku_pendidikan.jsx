@@ -1,6 +1,18 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer_putih from "../components/Footer";
+import p1 from "../assets/image/buku-pendidikan/p1.png";
+import p2 from "../assets/image/buku-pendidikan/p2.png";
+import p3 from "../assets/image/buku-pendidikan/p3.png";
+import p4 from "../assets/image/buku-pendidikan/p4.png";
+import p5 from "../assets/image/buku-pendidikan/p5.png";
+import p6 from "../assets/image/buku-pendidikan/p6.png";
+import p7 from "../assets/image/buku-pendidikan/p7.png";
+import p8 from "../assets/image/buku-pendidikan/p8.png";
+import p9 from "../assets/image/buku-pendidikan/p9.png";
+import p10 from "../assets/image/buku-pendidikan/p10.png";
+import p11 from "../assets/image/buku-pendidikan/p11.png";
+import p12 from "../assets/image/buku-pendidikan/p12.png";
 const Buku_pendidikan = () => {
   const navigate = useNavigate();
   return (
@@ -29,7 +41,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p1}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -38,7 +50,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p2}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -47,7 +59,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p3}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -56,7 +68,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p4}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -65,7 +77,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p5}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -74,7 +86,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p6}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -83,7 +95,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p7}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -92,7 +104,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p8}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -100,8 +112,10 @@ const Buku_pendidikan = () => {
         </div>
         <div>
           <img
-            onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            onClick={() =>
+              navigate("/koleksi/pendidikan/Buku-Siswa-Ekonomi-Kelas-XI-SMA")
+            }
+            src={p9}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -109,8 +123,8 @@ const Buku_pendidikan = () => {
         </div>
         <div>
           <img
-            onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            onClick={() => navigate("")}
+            src={p10}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -119,7 +133,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p11}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
@@ -128,7 +142,7 @@ const Buku_pendidikan = () => {
         <div>
           <img
             onClick={() => navigate("#")}
-            src="https://source.unsplash.com/152x219?pohon"
+            src={p12}
             alt=""
             className="transition ease-in-out border border-masuk bg-blue-500 hover:-translate-y-1 hover:scale-110  duration-300"
           />
