@@ -11,6 +11,7 @@ import EditAkun from "./pages/EditAkun";
 import DaftarKoleksi from "./pages/DaftarKoleksi";
 import Buku_pendidikan from "./pages/Buku_pendidikan";
 import Detail_buku from "./pages/Detail_buku";
+import LupaKataSandi from "./pages/LupaKataSandi";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/layanan' element={<Layanan />}></Route>
         <Route path='/tentang-kami' element={<Tentang_kami />}></Route>
         <Route path='/masuk' element={<SignIn />}></Route>
+        <Route path='/masuk/lupakatasandi' element={<LupaKataSandi />}></Route>
         <Route path='/daftar' element={<SignUp />}></Route>
         <Route path='/peminjaman' element={<Peminjaman />}></Route>
         <Route path='/akun' element={<Akun />}></Route>

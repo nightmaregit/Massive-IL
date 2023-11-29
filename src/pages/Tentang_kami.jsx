@@ -103,7 +103,7 @@ const Tentang_kami = () => {
             bertujuan untuk memenuhi kebutuhan literasi dan pembelajaran siswa
           </div>
 
-          <div className="pt-[125px] flex flex-row gap-[440px] ">
+          <div className="pt-[125px] flex flex-row gap-[240px] ">
             <div>
               <div className="flex items-start">
                 <div className="relative top-4 text-white bg-green-500 flex w-12 h-12 justify-center items-center rounded-full">
@@ -148,7 +148,7 @@ const Tentang_kami = () => {
               </div>
             </div>
             <div className="">
-              <img src={Library} className="h-[300px] w-[292px]" alt="" />
+              <img src={Library} className="h-[400px] w-[382px]" alt="" />
             </div>
           </div>
         </div>
@@ -164,8 +164,8 @@ const Tentang_kami = () => {
               Jl. Delman Utama I, Kebayoran Lama Jakarta Selatan
             </div>
           </div>
-          <div className="pt-[96px]">
-            <div className="flex flex-row gap-[300px]">
+          <div className="pt-[96px]"> 
+            <div className="flex flex-row gap-[200px]">
               <div className="flex flex-col justify-center items-center">
                 <div className="bg-green-500 flex w-12 h-12 justify-center items-center rounded-full">
                   <div className="text-white text-xl font-normal font-['Galindo'] leading-[30px]">

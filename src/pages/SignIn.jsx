@@ -6,14 +6,14 @@ import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
   const navigate = useNavigate();
+  let url ="/masuk/lupakatasandi";
   return (
     <div className="page-container">
       <div className="SignIn ">
         {/* bagian1 */}
         <div className="bagian2-signin ">
           <div className="w-full ">
-            {" "}
-            <img src={Logo} className="" alt="" />{" "}
+            <img src={Logo} className="" alt="" />
           </div>
 
           <div className="textbagian2 leading-9 pb-[20px] pt-[3px] ">
@@ -27,7 +27,7 @@ const SignIn = () => {
 
           <div className="w-full  h-[18px] justify-center items-center gap-[21px] inline-flex pt-[36px] pl-[36px] pr-[36px] ">
             <div className="grow  h-[0px] border border-black border-opacity-25">
-              {" "}
+              
             </div>
             <div className="text-black grow-0 text-opacity-25 text-[15px] font-medium font-['Inter'] ">
               atau Masuk dengan Email
@@ -84,7 +84,7 @@ const SignIn = () => {
                   </label>
                   <a
                     className="text-indigo-700 font-semibold font['Inter'] text-right w-1/2 "
-                    href=""
+                    href={url}
                   >
                     Lupa kata sandi?
                   </a>
@@ -97,8 +97,8 @@ const SignIn = () => {
                     onClick={() => navigate("/")}
                     className="buttonDaftar-signin w-[370px]  m-0 p-0"
                   >
-                    {" "}
-                    Masuk{" "}
+                    
+                    Masuk
                   </button>
                 </div>
                 {/* button daftar end */}
@@ -109,7 +109,7 @@ const SignIn = () => {
         {/* bagian1 end */}
 
         <div className="bagian1-signin">
-          <img src={Never} className="w-[380px] h-[380px]" alt="" />{" "}
+          <img src={Never} className="w-[380px] h-[380px]" alt="" />
           <div className="textbagian1">
             Daftar Untuk
             <br />
@@ -119,8 +119,8 @@ const SignIn = () => {
             onClick={() => navigate("/daftar")}
             className="buttonMasuk-signin "
           >
-            {" "}
-            Daftar{" "}
+            
+            Daftar
           </button>
         </div>
       </div>
