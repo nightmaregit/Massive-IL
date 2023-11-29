@@ -1,7 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/image/Logo.png";
+import { useLocation } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
+  const lokasi = useLocation();
+ const {pathname} = lokasi;
+ const muncul = pathname.split("/");
+ 
+ 
+
   return (
     <nav className="bg-perpus font-serif ">
       <div className="flex items-center px-16 justify-between">
@@ -15,26 +22,28 @@ const Navbar = () => {
         <div className="flex text-lg">
           <button
             onClick={() => navigate("/")}
-            className="block px-3 hover:text-blue-700 "
+            //  className="block px-3 active:bg-black hover:text-blue-700 "
+           className={pathname === "/" ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
           >
             Beranda
           </button>
           <button onClick={"/"}></button>
           <button
             onClick={() => navigate("/layanan")}
-            className="block px-3 hover:text-blue-700"
+            className={pathname === "/layanan" ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
           >
             Layanan
           </button>
           <button
             onClick={() => navigate("/koleksi")}
-            className="block px-3 hover:text-blue-700"
+            className={pathname === "/koleksi" ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
+            // className="block px-3 hover:text-blue-700"
           >
             Koleksi
           </button>
           <button
             onClick={() => navigate("/tentang-kami")}
-            className="block px-3 hover:text-blue-700"
+            className={pathname === "/tentang-kami" ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
           >
             Tentang kami
           </button>
