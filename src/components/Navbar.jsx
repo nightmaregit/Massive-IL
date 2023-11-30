@@ -4,11 +4,10 @@ import { useLocation } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   const lokasi = useLocation();
- const {pathname} = lokasi;
- const muncul = pathname.split("/");
+  const {pathname} = lokasi;
+  const muncul = pathname.split("/");
  
  
-
   return (
     <nav className="bg-perpus font-serif ">
       <div className="flex items-center px-16 justify-between">
