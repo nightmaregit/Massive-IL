@@ -1,9 +1,9 @@
-import th_4 from "../assets/image/th 4.png";
-import th_5 from "../assets/image/th 5.png";
+import th_4 from "../assets/image/buku/th 4.png";
+import th_5 from "../assets/image/buku/th 5.png";
 import th_6 from "../assets/image/th 6.png";
 import th_7 from "../assets/image/th 7.png";
 import th_8 from "../assets/image/th 8.png";
-import th_9 from "../assets/image/th 15.png";
+import th_9 from "../assets/image/buku-pendidikan/th 15.png";
 import { useNavigate } from "react-router-dom";
 import { VscRepoPull } from "react-icons/vsc";
 
