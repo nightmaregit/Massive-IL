@@ -6,8 +6,7 @@ const Navbar = () => {
   const lokasi = useLocation();
   const {pathname} = lokasi;
   const muncul = pathname.split("/");
- 
- 
+  
   return (
     <nav className="bg-perpus font-serif ">
       <div className="flex items-center px-16 justify-between">
@@ -35,7 +34,7 @@ const Navbar = () => {
           </button>
           <button
             onClick={() => navigate("/koleksi")}
-            className={pathname === "/koleksi" ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
+            className={"koleksi" === muncul[1] ? "bg-indigo-400 p-2 rounded-md" :"block px-3  hover:text-blue-700"}
             // className="block px-3 hover:text-blue-700"
           >
             Koleksi
