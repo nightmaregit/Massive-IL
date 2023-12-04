@@ -20,24 +20,24 @@ const Koleksi = () => {
       <Bg_web />
       <div className=" mt-32 px-24 mb-11">
         <div className=" grid grid-cols-3  gap-4">
-          <div className=" bg-masuk  h-20  flex">
+          <div className=" bg-masuk hover:tra  h-20  flex">
             <button className=" font-bold text-white mx-auto">Agama</button>
           </div>
-          <div className=" bg-masuk h-20  flex">
+          <div className=" bg-masuk  h-20  flex">
             <button className=" font-bold text-white mx-auto">Sosial</button>
           </div>
-          <div className=" bg-masuk h-20  flex">
+          <div className=" bg-masuk  h-20  flex">
             <button className="font-bold text-white mx-auto">Bahasa</button>
           </div>
-          <div className=" bg-masuk h-20  flex">
+          <div className=" bg-masuk  h-20  flex">
             <button className=" font-bold text-white mx-auto">
               Sain & Matematika
             </button>
           </div>
-          <div className=" bg-masuk h-20  flex">
+          <div className=" bg-masuk  h-20  flex">
             <button className="font-bold text-white mx-auto">Sejarah</button>
           </div>
-          <div className=" bg-masuk h-20  flex">
+          <div className=" bg-masuk  h-20  flex">
             <button className="font-bold text-white mx-auto">Kesenian</button>
           </div>
         </div>

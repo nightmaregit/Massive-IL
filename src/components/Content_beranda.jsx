@@ -7,6 +7,11 @@ import p9 from "../assets/image/buku-pendidikan/p9.png";
 import th4 from "../assets/image/buku/th 4.png";
 import th5 from "../assets/image/buku/th 5.png";
 import logo_sekolah from "../assets/image/buku/logo_sekolah.png";
+import { IoBookOutline } from "react-icons/io5";
+import { FiUsers } from "react-icons/fi";
+
+import { IoDocumentTextOutline } from "react-icons/io5";
+
 import { useNavigate } from "react-router-dom";
 const Content_beranda = () => {
   const navigate = useNavigate();
@@ -39,10 +44,10 @@ const Content_beranda = () => {
       <div className=" container mx-auto ">
         <div className="shadow-xlrounded-lg p-10 ">
           <div className="text-center">
-            <span className=" font-bold text-5xl   ">Datang dan Baca</span>
+            <span className=" font-bold text-4xl   ">Datang dan Baca</span>
             <br />
-            <span className=" font-bold text-5xl ">
-              Di Perpustakaan SMAN 47 Jakarta
+            <span className=" font-bold text-4xl ">
+              Bersama SMAN 47 Jakarta
             </span>
           </div>
           <div className="grid grid-cols-2 px-16 pt-10">
@@ -73,7 +78,50 @@ const Content_beranda = () => {
         </div>
       </div>
       <div>
-        <div className="bg-masuk w-auto h-52"></div>
+        <div className=" bg-masuk w-auto h-[300px]">
+          <div className="px-16 pt-5">
+            <div className="text-white text-center">
+              <span className=" font-bold text-2xl">Membaca Semakin Mudah</span>
+              <p>
+                Baca buku, berbagi koleksi bacaan dan bersosialisasi secara
+                bersamaan. Dimana pun,
+                <br /> Kapan pun dengan nyaman bersama setiap orang{" "}
+              </p>
+            </div>
+            <div className="grid grid-cols-3 text-white text-center pt-10">
+              <div>
+                <i className=" flex mx-auto items-center text-center bg-green-500 w-10 h-10 rounded ">
+                  <IoDocumentTextOutline className="text-2xl mx-auto" />
+                </i>
+                <br />
+                <span className=" font-bold text-xl">
+                  Syarat Pendaftaran Mudah
+                </span>
+                <p>
+                  Cukup 60 detik untuk bergabung dan merasakan menjadi anggota{" "}
+                </p>
+              </div>
+              <div>
+                <i className=" flex mx-auto items-center text-center bg-green-500 w-10 h-10 rounded ">
+                  <IoBookOutline className="text-2xl mx-auto" />
+                </i>
+                <br />
+                <span className=" font-bold text-xl">
+                  Akses Mudah Dan Cepat
+                </span>
+                <p>Proses peminjaman buku yang sederhana dan efisien </p>
+              </div>
+              <div>
+                <i className=" flex mx-auto items-center text-center bg-green-500 w-10 h-10 rounded ">
+                  <FiUsers className="text-2xl mx-auto" />
+                </i>
+                <br />
+                <span className=" font-bold text-xl">Dukungan Pendidikan</span>
+                <p>Menyediakan layanan untuk membantu siswa dan pendidik </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <Kategori />

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Logo from "../assets/Logo.png";
 // import { GrFavorite } from "react-icons/gr";
 import { MdFavorite } from "react-icons/md";
 import p9 from "../assets/image/buku-pendidikan/p9.png";
@@ -10,7 +11,7 @@ const Detail_buku = () => {
   return (
     <>
       <Navbar />
-      <div className="px-16 mb-5 ">
+      <div className="px-16 mb-5 opacity-20 ">
         <div className="flex pt-5">
           <div className="">
             <img className="w-96" src={p9} alt="" />
@@ -88,6 +89,26 @@ const Detail_buku = () => {
           </div>
         </div>
       </div>
+      <div className="bg-white w-[434px] h-[500px] mt-20 mx-auto absolute left-[420px] top-4 rounded-lg">
+        <div className="px-20">
+          <div className="flex justify-center pt-5">
+            {/* <span className="font-bold text-5xl">logo</span> */}
+            {/* <img src={logo} alt="" /> */}
+          </div>
+          <div className=" flex justify-center pt-5">
+            <span className=" font-bold text-3xl">Bukti peminjaman</span>
+          </div>
+          <div className=" mt-20">
+            <p>Id Anggota      : </p>
+            <p>Nama        :</p>
+            <p>Tanggal Pinjam   :</p>
+            <p>Judul Buku     :</p>
+            <p>Kode Buku     :</p>
+            <p>Tanggal Kembali   :</p>
+          </div>
+        </div>
+      </div>
+
       <Footer />
     </>
   );

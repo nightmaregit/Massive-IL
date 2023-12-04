@@ -17,41 +17,32 @@ const Kategori = () => {
         {/* <div> */}
         <button
           onClick={() => navigate("#")}
-          className=" py-[35px] border border-black bg-white hover:bg-masuk hover:text-white  rounded-2xl shadow-lg shadow-black h-[84px] py-3"
+          className="  border border-black bg-masuk hover:bg-white hover:text-black text-white  rounded-2xl shadow-lg shadow-black h-[84px] py-3"
         >
           Agama
         </button>
         <button
           onClick={() => navigate("#")}
-          className=" py-[35px] border border-black bg-masuk text-white hover:bg-white hover:text-black rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
+          className="  border border-black bg-masuk text-white hover:bg-white hover:text-black rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
         >
           Sosial
         </button>
         <button
           onClick={() => navigate("#")}
-          className=" py-[35px] border border-black bg-white hover:bg-masuk hover:text-white rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
+          className="  border border-black bg-masuk hover:bg-white hover:text-black text-white rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
         >
           Bahasa
         </button>
+
+        {/* </div> */}
+      </div>
+      <div className=" flex justify-center pt-10">
         <button
           onClick={() => navigate("/koleksi/pendidikan")}
-          className=" py-[35px] border border-black bg-masuk text-white hover:bg-white hover:text-black rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
+          className="  border border-black bg-masuk text-white hover:bg-white hover:text-black rounded-2xl shadow-lg shadow-black h-[84px] py-3 w-[340px] text-2xl "
         >
           Pendidikan
         </button>
-        <button
-          onClick={() => navigate("#")}
-          className=" py-[35px] border border-black bg-white hover:bg-masuk hover:text-white rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
-        >
-          Sejarah
-        </button>
-        <button
-          onClick={() => navigate("#")}
-          className=" py-[35px] bg-masuk text-white border border-black hover:bg-white hover:text-black rounded-2xl shadow-lg shadow-black h-[84px] py-3 "
-        >
-          Kesenian
-        </button>
-        {/* </div> */}
       </div>
     </div>
   );

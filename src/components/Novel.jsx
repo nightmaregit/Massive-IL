@@ -19,7 +19,12 @@ const Novel = () => {
             </i>
             <span className=" font-bold text-2xl">Novel</span>
           </div>
-          <span className="font-bold">Lainnya &gt;</span>
+          <button
+            onClick={() => navigate("/koleksi/novel")}
+            className="font-bold"
+          >
+            Lainnya &gt;
+          </button>
         </div>
         <div className="border px-4 py-4 shadow-lg border-black  mt-12">
           <div className="grid grid-cols-6   ">
