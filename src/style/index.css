@@ -11,11 +11,11 @@
   }
 
  .bagian1-signin{
- @apply  w-[441px] h-[598px]  bg-indigo-400 rounded-[20px] flex-col justify-start flex items-center ;
+ @apply  w-[441px] h-[598px]  bg-[#0C356A] rounded-[20px] flex-col justify-start flex items-center ;
  }
 
  .textbagian1{
-  @apply text-center text-black text-[28px] font-semibold font-['Montserrat',sans-serif];
+  @apply text-center text-white text-[28px] font-semibold font-['Montserrat',sans-serif];
  }
 
  .bagian2-signin{
@@ -31,7 +31,7 @@
   }
 
   .input-signin{
-    @apply  w-[348px] h-[51px] bg-indigo-400 rounded-[5px] px-[22px]   placeholder-black placeholder-opacity-25 text-[15px] font-['Inter',sans-serif] font-medium ;
+    @apply  w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] px-[22px]   placeholder-white placeholder-opacity-25 text-[15px] font-['Inter',sans-serif] font-medium ;
   }
 
   .buttonMasuk-signin{
@@ -43,7 +43,7 @@
  }
 
  .buttonMasukgoogle-signin{
-  @apply w-[348px] h-[51px] bg-indigo-400 rounded-[5px] text-black text-[15px] font-semibold font-['Inter',sans-serif];
+  @apply w-[348px] h-[51px] bg-[#0C356A] rounded-[5px] text-white text-[15px] font-semibold font-['Inter',sans-serif];
  }
 
   .page-container {
