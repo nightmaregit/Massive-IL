@@ -35,13 +35,10 @@ const Tentang_kami = () => {
 
           <div>
             <iframe
+              src="https://drive.google.com/file/d/1FRqZeSPwJxHS0kS67nrP51zMdmNCkMY7/preview"
               width="500"
               height="300"
-              src="https://www.youtube.com/embed/inZxrcEjxes?si=fJJhgcgivnICrihB"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allow="autoplay"
             ></iframe>
           </div>
         </div>
@@ -118,21 +115,22 @@ const Tentang_kami = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex pt-5">
                 <div className="relative top-4 text-white bg-green-500 flex w-12 h-12 justify-center items-center rounded-full">
                   <FiBookOpen />
                 </div>
                 <div className="flex flex-col w-[240px] left-5 relative">
                   <div className=" text-slate-800 text-2xl font-bold font-['Poppins'] leading-loose">
-                  Peminjaman Buku
+                    Peminjaman Buku
                   </div>
                   <div className=" text-justify text-slate-500 text-base font-medium font-['Poppins'] leading-normal">
-                  Pinjaman buku impian dan nikmati pengalaman literatur yang tak terlupakan
+                    Pinjaman buku impian dan nikmati pengalaman literatur yang
+                    tak terlupakan
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex pt-5">
                 <div className="relative top-4 text-white bg-green-500 flex w-12 h-12 justify-center items-center rounded-full">
                   <PiSquaresFourThin />
@@ -164,7 +162,7 @@ const Tentang_kami = () => {
               Jl. Delman Utama I, Kebayoran Lama Jakarta Selatan
             </div>
           </div>
-          <div className="pt-[96px]"> 
+          <div className="pt-[96px]">
             <div className="flex flex-row gap-[200px]">
               <div className="flex flex-col justify-center items-center">
                 <div className="bg-green-500 flex w-12 h-12 justify-center items-center rounded-full">
@@ -227,7 +225,6 @@ const Tentang_kami = () => {
           <div className=" ">
             <Iframe
               url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1251747709202!2d106.77053897499064!3d-6.247231272756671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f11d4eaabb23%3A0xe094bdace28ce539!2sSMAN%2047%20Jakarta!5e0!3m2!1sen!2sid!4v1701176388999!5m2!1sen!2sid"
-              
               className="h-[500px] w-[1000px]  bottom-60 relative"
             />
           </div>
