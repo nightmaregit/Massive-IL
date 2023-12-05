@@ -4,7 +4,7 @@ function MasukSebagai() {
     
   return (
     <div>
-        <div className="w-screen h-screen p-0 m-0 flex justify-center items-center gap-4">
+        <div className="w-screen h-screen p-0 m-0 flex justify-center items-center gap-12">
             <div className="bg-masuk h-[500px] w-[350px] flex justify-center items-center rounded-xl  ">
                 <img src={logo_sekolah} className="w-[280px] h-[280px]" alt="" />
             </div>
