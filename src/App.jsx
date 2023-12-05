@@ -15,6 +15,7 @@ import LupaKataSandi from "./pages/LupaKataSandi";
 import Buku_novel from './pages/Buku_novel'
 import Bukti from './pages/bukti'
 import Peminjaman from "./pages/PeminjamanNew";
+import MasukSebagai from "./pages/MasukSebagai";
 // import Buku_cerpen from './pages/Buku_cerpen'
 // import Buku_komik from './pages/Buku_komik'
 function App() {
@@ -29,7 +30,7 @@ function App() {
         <Route path="/masuk/lupakatasandi" element={<LupaKataSandi />}></Route>
         <Route path="/daftar" element={<SignUp />}></Route>
         {/* <Route path="/peminjaman" element={<PeminjamanNew />}></Route> */}
-
+        <Route path="/masuksebagai" element={<MasukSebagai />}></Route>
         <Route path="/peminjaman" element={<Peminjaman />}></Route>
         <Route path="/akun" element={<Akun />}></Route>
         <Route path="/akun/edit" element={<EditAkun />}></Route>

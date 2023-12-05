@@ -84,10 +84,10 @@ const Layanan = () => {
         </div>
       </div>
       <div className="bg-slate-500 h-[700px] flex justify-center items-center">
-        <div className="flex justify-between items-center w-[1120px] gap-14">
+        <div className="flex justify-between items-center w-[1000px]  ">
           <div className=" flex justify-center items-center gap-8">
             <div className="flex flex-col justify-center items-center">
-              <img src={p9} className="w-[320px] h-[470px]" alt="" />
+              <img src={p9} className="w-[300px] h-[440px]" alt="" />
               <div className="pt-7">
                 <button onClick={()=> navigate("/koleksi/pendidikan/Buku-Siswa-Ekonomi-Kelas-XI-SMA")} className="bg-white font-semibold  w-[140px] h-[35px]  rounded-lg">
                   Lihat
@@ -95,7 +95,7 @@ const Layanan = () => {
               </div>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <img src={p10} className="w-[320px] h-[470px]" alt="" />
+              <img src={p10} className="w-[300px] h-[440px]" alt="" />
               <div className="pt-7">
                 <button className="bg-white font-semibold  w-[140px] h-[35px]  rounded-lg">
                   Lihat
@@ -103,12 +103,12 @@ const Layanan = () => {
               </div>
             </div>
           </div>
-          <div className=" text-white text-center text-[52px] font-bold leading-[52px]">
+          <div className=" text-white text-center text-[42px] font-bold leading-[42px]">
             <div className="pb-4">
               Temukan Buku <br />
               Impian mu
             </div>
-            <div className="w-[400px] h-[4px] bg-white"></div>
+            <div className="w-[300px] h-[4px] bg-white"></div>
           </div>
         </div>
       </div>
