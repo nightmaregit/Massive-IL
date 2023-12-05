@@ -23,11 +23,11 @@ const Tentang_kami = () => {
       <div className="bg-[#0C356A] justify-center items-center flex flex-wrap ">
         <div className="pr-[104px] pl-[104px] pt-20  flex flex-nowrap gap-16 ">
           <div className="flex-col justify-center items-start gap-2.5 inline-flex">
-            <div className="text-justify w-[400px]  text-white text-[36px] font-bold font-['Lora'] leading-[36px] tracking-widest">
+            <div className="text-justify w-[400px]  text-white text-[36px] font-bold leading-[36px] tracking-widest">
               SELAMAT DATANG <br />
               DI PERPUSTAKAAN SMAN 47 JAKARTA
             </div>
-            <div className="text-white text-opacity-90 text-base font-normal font-['Poppins'] leading-normal">
+            <div className="text-white text-opacity-90 text-base font-normal  leading-normal">
               Pusat literasi yang memajukan pengetahuan, imajinasi, dan
               pemikiran kritis.
             </div>
@@ -50,10 +50,10 @@ const Tentang_kami = () => {
                 1
               </div>
             </div>
-            <div className="pt-[16px] text-white text-xl font-bold font-['Poppins'] leading-[30px]">
+            <div className="pt-[16px] text-white text-xl font-bold  leading-[30px]">
               Mendorong Minat Membaca
             </div>
-            <div className="text-white text-opacity-80 text-base font-medium font-['Poppins'] leading-normal">
+            <div className="text-white text-opacity-80 text-base font-medium  leading-normal">
               Berkomitmen memupuk minat baca di kalangan siswa.
             </div>
           </div>
@@ -64,10 +64,10 @@ const Tentang_kami = () => {
                 2
               </div>
             </div>
-            <div className="pt-[16px]  text-white text-xl font-bold font-['Poppins'] leading-[30px]">
+            <div className="pt-[16px]  text-white text-xl font-bold  leading-[30px]">
               Menyediakan Akses ke Pengetahuan
             </div>
-            <div className="text-white text-opacity-80 text-base font-medium font-['Poppins'] leading-normal">
+            <div className="text-white text-opacity-80 text-base font-medium  leading-normal">
               Menyediakan akses tak terbatas ke koleksi buku untuk proses
               pembelejaran siswa
             </div>
@@ -79,10 +79,10 @@ const Tentang_kami = () => {
                 3
               </div>
             </div>
-            <div className=" pt-[16px] text-white text-xl font-bold font-['Poppins'] leading-[30px]">
+            <div className=" pt-[16px] text-white text-xl font-bold  leading-[30px]">
               Menyelenggarakan Acara Pendidikan
             </div>
-            <div className="text-white text-opacity-80 text-base font-medium font-['Poppins'] leading-normal">
+            <div className="text-white text-opacity-80 text-base font-medium  leading-normal">
               Menyelenggarakan kegiatan yang memberikan pengalaman membaca siswa
             </div>
           </div>
@@ -92,10 +92,10 @@ const Tentang_kami = () => {
 
       <div className="flex flex-col items-center justify-center pt-[117px] ">
         <div className="">
-          <div className="pb-[37px] text-slate-800 text-4xl font-bold font-['Poppins'] leading-[44px]">
+          <div className="pb-[37px] text-slate-800 text-4xl font-bold  leading-[44px]">
             LAYANAN KAMI
           </div>
-          <div className="w-[790px] text-slate-500 text-xl font-medium font-['Poppins'] leading-[30px]">
+          <div className="w-[790px] text-slate-500 text-xl font-medium  leading-[30px]">
             Dengan koleksi yang beragam dan fasilitas modern, perpustakaan kami
             bertujuan untuk memenuhi kebutuhan literasi dan pembelajaran siswa
           </div>
@@ -107,10 +107,10 @@ const Tentang_kami = () => {
                   <FiUsers />
                 </div>
                 <div className="flex flex-col w-[240px] left-5 relative">
-                  <div className=" text-slate-800 text-2xl font-bold font-['Poppins'] leading-loose">
+                  <div className=" text-slate-800 text-2xl font-bold  leading-loose">
                     Keanggotaan
                   </div>
-                  <div className=" text-justify text-slate-500 text-base font-medium font-['Poppins'] leading-normal">
+                  <div className=" text-justify text-slate-500 text-base font-medium  leading-normal">
                     Pinjam buku dengan mudah sebagai anggota perpustakaan.{" "}
                   </div>
                 </div>
@@ -121,10 +121,10 @@ const Tentang_kami = () => {
                   <FiBookOpen />
                 </div>
                 <div className="flex flex-col w-[240px] left-5 relative">
-                  <div className=" text-slate-800 text-2xl font-bold font-['Poppins'] leading-loose">
+                  <div className=" text-slate-800 text-2xl font-bold  leading-loose">
                     Peminjaman Buku
                   </div>
-                  <div className=" text-justify text-slate-500 text-base font-medium font-['Poppins'] leading-normal">
+                  <div className=" text-justify text-slate-500 text-base font-medium  leading-normal">
                     Pinjaman buku impian dan nikmati pengalaman literatur yang
                     tak terlupakan
                   </div>
@@ -136,10 +136,10 @@ const Tentang_kami = () => {
                   <PiSquaresFourThin />
                 </div>
                 <div className="flex flex-col w-[240px] left-5 relative">
-                  <div className=" text-slate-800 text-2xl font-bold font-['Poppins'] leading-loose">
+                  <div className=" text-slate-800 text-2xl font-bold  leading-loose">
                     Koleksi
                   </div>
-                  <div className=" text-justify text-slate-500 text-base font-medium font-['Poppins'] leading-normal">
+                  <div className=" text-justify text-slate-500 text-base font-medium  leading-normal">
                     Tersedia koleksi buku dengan berbagai genre dan topik
                   </div>
                 </div>
@@ -155,10 +155,10 @@ const Tentang_kami = () => {
       <div className="flex flex-col justify-center items-center  pt-[150px]">
         <div className="">
           <div className="flex flex-col justify-center items-center  ">
-            <div className=" text-slate-800 text-5xl font-bold font-['Poppins'] leading-[60px]">
+            <div className=" text-slate-800 text-5xl font-bold  leading-[60px]">
               Hubungi Kami
             </div>
-            <div className=" text-slate-500 text-xl font-medium font-['Poppins'] leading-[30px]">
+            <div className=" text-slate-500 text-xl font-medium  leading-[30px]">
               Jl. Delman Utama I, Kebayoran Lama Jakarta Selatan
             </div>
           </div>
@@ -171,10 +171,10 @@ const Tentang_kami = () => {
                   </div>
                 </div>
                 <div>
-                  <div className=" text-center text-slate-800 text-3xl font-bold font-['Poppins'] leading-[38px]">
+                  <div className=" text-center text-slate-800 text-3xl font-bold  leading-[38px]">
                     Email
                   </div>
-                  <div className=" text-center text-slate-500 text-xl font-medium font-['Poppins'] leading-[30px]">
+                  <div className=" text-center text-slate-500 text-xl font-medium  leading-[30px]">
                     info@sman47jkt.com
                   </div>
                 </div>
@@ -187,10 +187,10 @@ const Tentang_kami = () => {
                   </div>
                 </div>
                 <div>
-                  <div className=" text-center text-slate-800 text-3xl font-bold font-['Poppins'] leading-[38px]">
+                  <div className=" text-center text-slate-800 text-3xl font-bold  leading-[38px]">
                     Phone
                   </div>
-                  <div className=" text-center text-slate-500 text-xl font-medium font-['Poppins'] leading-[30px]">
+                  <div className=" text-center text-slate-500 text-xl font-medium  leading-[30px]">
                     089512345678
                   </div>
                 </div>
@@ -203,10 +203,10 @@ const Tentang_kami = () => {
                   </div>
                 </div>
                 <div>
-                  <div className=" text-center text-slate-800 text-3xl font-bold font-['Poppins'] leading-[38px]">
+                  <div className=" text-center text-slate-800 text-3xl font-bold  leading-[38px]">
                     Social
                   </div>
-                  <div className=" text-center text-slate-500 text-xl font-medium font-['Poppins'] leading-[30px]">
+                  <div className=" text-center text-slate-500 text-xl font-medium  leading-[30px]">
                     <div className="flex  justify-center ">
                       <FaYoutube />
                       <FaFacebookSquare />
