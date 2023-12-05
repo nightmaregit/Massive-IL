@@ -132,10 +132,10 @@ const Detail_buku = () => {
             </label>
           </div>
           <div className="pt-3">
-            <div className="flex justify-end ">
+            <div className="flex justify-end  ">
               <form onSubmit={handleSubmit}>
                 <button className="px-4 focus:text-pink-500">
-                  <MdFavorite className="text-4xl " />
+                  <MdFavorite className="text-4xl items-center" />
                 </button>
                 <button className="bg-masuk w-24 h-8 rounded-full text-white hover:bg-perpus hover:text-black border border-black">
                   pinjam

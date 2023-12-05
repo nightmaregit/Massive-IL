@@ -79,7 +79,7 @@ const Detail_buku = () => {
           </div>
           <div className="pt-3">
             <div className="flex justify-end ">
-              <button className="px-4 focus:text-pink-500">
+              <button className="px-4 focus:text-pink-500 ">
                 <MdFavorite className="text-4xl " />
               </button>
               <button className="bg-masuk w-24 h-8 rounded-full text-white hover:bg-perpus hover:text-black border border-black">
