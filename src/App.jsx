@@ -5,15 +5,16 @@ import Layanan from "./pages/Layanan";
 import Tentang_kami from "./pages/Tentang_kami";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import Peminjaman from "./pages/Peminjaman";
+// import Peminjaman from "./pages/PeminjamanNew";
 import Akun from "./pages/Akun";
 import EditAkun from "./pages/EditAkun";
-import DaftarKoleksi from "./pages/DaftarKoleksi";
+import DaftarKoleksi from "./pages/DaftarKoleksiNew";
 import Buku_pendidikan from "./pages/Buku_pendidikan";
 import Detail_buku from "./pages/Detail_buku";
 import LupaKataSandi from "./pages/LupaKataSandi";
 import Buku_novel from './pages/Buku_novel'
 import Bukti from './pages/bukti'
+import Peminjaman from "./pages/PeminjamanNew";
 // import Buku_cerpen from './pages/Buku_cerpen'
 // import Buku_komik from './pages/Buku_komik'
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route path="/masuk" element={<SignIn />}></Route>
         <Route path="/masuk/lupakatasandi" element={<LupaKataSandi />}></Route>
         <Route path="/daftar" element={<SignUp />}></Route>
+        {/* <Route path="/peminjaman" element={<PeminjamanNew />}></Route> */}
+
         <Route path="/peminjaman" element={<Peminjaman />}></Route>
         <Route path="/akun" element={<Akun />}></Route>
         <Route path="/akun/edit" element={<EditAkun />}></Route>
