@@ -120,22 +120,26 @@ const DaftarKoleksi = () => {
       <Sidebar />
 
       <div className="flex flex-col w-full">
-        <div className=" text-black flex justify-end items-center px-[130px] gap-[30px]">
-          <div>
-            <h1 className="font-semibold text-sm leading-normal">Nabila A.</h1>
-            <span>Siswa</span>
-          </div>
+        <div className="bg-masuk h-16 flex justify-end">
+          <div className=" text-white flex  items-center pr-5  gap-[30px]">
+            <div>
+              <h1 className="font-semibold text-sm leading-normal">
+                Nabila A.
+              </h1>
+              <span>Siswa</span>
+            </div>
 
-          {/* Ini dibawah ntar diisi jd Image profile picturenya */}
-          <div className="w-[45px] h-[45px] bg-white rounded-full">
-            <img
-              src={ProfilePicture}
-              alt="profile picture"
-              className="object-cover w-[45px] h-[45px]"
-            />
+            {/* Ini dibawah ntar diisi jd Image profile picturenya */}
+            <div className="w-[45px] h-[45px] bg-white rounded-full">
+              <img
+                src={ProfilePicture}
+                alt="profile picture"
+                className="object-cover w-[45px] h-[45px]"
+              />
+            </div>
           </div>
         </div>
-        <table className="ml-[80px] relative rounded-[50px] mt-[65px] max-w-screen-2xl mx-auto">
+        <table className=" relative rounded-[50px] mt-5 max-w-screen-2xl mx-5">
           <thead className="bg-black">
             <tr className="text-sm font-normal text-white">
               <th className="p-3">No. Booking</th>
@@ -144,7 +148,7 @@ const DaftarKoleksi = () => {
               <th className="p-3">Tgl Pinjam</th>
               <th className="p-3">Tgl Kembali</th>
               <th className="p-3">Sanksi</th>
-              <th className="p-3">Status</th>
+              <th className="p-3 pr-16">Status</th>
             </tr>
           </thead>
           <tbody className="[&>*:nth-child(odd)]:bg-gray-300">
@@ -162,10 +166,10 @@ const DaftarKoleksi = () => {
                 <td
                   className={
                     item.status === 1
-                      ? "p-3 bg-green-500 text-center text-white font-bold text-15px"
+                      ? "p-3 flex mr-10 w-[200px] justify-center mt-[10px] bg-green-500 text-center text-white font-bold text-15px"
                       : item.status === 2
-                      ? "p-3 bg-blue-500 text-center text-white font-bold text-15px"
-                      : "p-3 bg-red-500 text-center text-white font-bold text-15px"
+                      ? "p-3 flex mr-10 w-[200px] justify-center mt-[10px] bg-blue-500 text-center text-white font-bold text-15px"
+                      : "p-3 flex mr-10 w-[200px] justify-center mt-[10px] bg-red-500 text-center text-white font-bold text-15px"
                   }
                 >
                   {item.statusMsg}
