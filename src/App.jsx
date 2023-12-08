@@ -8,13 +8,13 @@ import SignIn from "./pages/SignIn";
 // import Peminjaman from "./pages/PeminjamanNew";
 import Akun from "./pages/Akun";
 import EditAkun from "./pages/EditAkun";
-import DaftarKoleksi from "./pages/DaftarKoleksiNew";
+import Riwayat_peminjaman from "./pages/Riwayat_peminjaman";
 import Buku_pendidikan from "./pages/Buku_pendidikan";
 import Detail_buku from "./pages/Detail_buku";
 import LupaKataSandi from "./pages/LupaKataSandi";
 import Buku_novel from './pages/Buku_novel'
 import Bukti from './pages/bukti'
-import Peminjaman from "./pages/PeminjamanNew";
+import Profil from "./pages/Profil";
 import MasukSebagai from "./pages/MasukSebagai";
 import DashboardAdmin from "./admin/DashboardAdmin";
 import ProfilAdmin from "./admin/ProfilAdmin";
@@ -33,10 +33,10 @@ function App() {
         <Route path="/daftar" element={<SignUp />}></Route>
         {/* <Route path="/peminjaman" element={<PeminjamanNew />}></Route> */}
         <Route path="/masuksebagai" element={<MasukSebagai />}></Route>
-        <Route path="/peminjaman" element={<Peminjaman />}></Route>
-        <Route path="/akun" element={<Akun />}></Route>
-        <Route path="/akun/edit" element={<EditAkun />}></Route>
-        <Route path="/daftar-koleksi" element={<DaftarKoleksi />}></Route>
+        <Route path="/profil" element={<Profil />}></Route>
+        <Route path="/profil/akun" element={<Akun />}></Route>
+        <Route path="/profil/akun/edit-akun" element={<EditAkun />}></Route>
+        <Route path="/profil/riwayat-peminjaman" element={<Riwayat_peminjaman />}></Route>
         <Route
           path="/koleksi/pendidikan/Buku-Siswa-Ekonomi-Kelas-XI-SMA"
           element={<Detail_buku />}

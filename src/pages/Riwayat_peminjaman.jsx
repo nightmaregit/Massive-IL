@@ -1,7 +1,7 @@
 import Sidebar from "../components/Sidebar";
 import ProfilePicture from "../assets/image/profile.png";
 
-const DaftarKoleksi = () => {
+const Riwayat_peminjaman = () => {
   const items = [
     {
       id: 1,
@@ -183,4 +183,4 @@ const DaftarKoleksi = () => {
   );
 };
 
-export default DaftarKoleksi;
+export default Riwayat_peminjaman;
