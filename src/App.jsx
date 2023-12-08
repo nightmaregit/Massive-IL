@@ -12,12 +12,13 @@ import Riwayat_peminjaman from "./pages/Riwayat_peminjaman";
 import Buku_pendidikan from "./pages/Buku_pendidikan";
 import Detail_buku from "./pages/Detail_buku";
 import LupaKataSandi from "./pages/LupaKataSandi";
-import Buku_novel from './pages/Buku_novel'
-import Bukti from './pages/bukti'
+import Buku_novel from "./pages/Buku_novel";
+import Bukti from "./pages/bukti";
 import Profil from "./pages/Profil";
 import MasukSebagai from "./pages/MasukSebagai";
 import DashboardAdmin from "./admin/DashboardAdmin";
 import ProfilAdmin from "./admin/ProfilAdmin";
+import Koleksi_pinjaman from "./pages/Koleksi_pinjaman";
 // import Buku_cerpen from './pages/Buku_cerpen'
 // import Buku_komik from './pages/Buku_komik'
 function App() {
@@ -36,7 +37,14 @@ function App() {
         <Route path="/profil" element={<Profil />}></Route>
         <Route path="/profil/akun" element={<Akun />}></Route>
         <Route path="/profil/akun/edit-akun" element={<EditAkun />}></Route>
-        <Route path="/profil/riwayat-peminjaman" element={<Riwayat_peminjaman />}></Route>
+        <Route
+          path="/profil/riwayat-peminjaman"
+          element={<Riwayat_peminjaman />}
+        ></Route>
+        <Route
+          path="/profil/koleksi-pinjaman"
+          element={<Koleksi_pinjaman />}
+        ></Route>
         <Route
           path="/koleksi/pendidikan/Buku-Siswa-Ekonomi-Kelas-XI-SMA"
           element={<Detail_buku />}

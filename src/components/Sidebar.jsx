@@ -4,8 +4,7 @@ import {
   HeartIcon,
   HomeIcon,
   LeaveIcon,
-  PlusIcon,
-  StatusIcon,
+ 
   StudentIcon,
 } from "../assets/icons";
 import Logo from "../assets/logo-bright.png";
