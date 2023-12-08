@@ -1,7 +1,8 @@
 import Sidebar from "../components/Sidebar";
 import ProfilePicture from "../assets/image/profile.png";
+import { MdFavorite } from "react-icons/md";
 
-const Riwayat_peminjaman = () => {
+const Favorit = () => {
   const items = [
     {
       id: 1,
@@ -11,12 +12,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -26,12 +23,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -41,12 +34,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -56,12 +45,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -71,12 +56,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -86,13 +67,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "Ditangguhkan",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-
-      statusMsg: "SUDAH DIVERIFIKSI",
+      status: 3,
+      statusMsg: "KEMBALI TERLAMBAT",
     },
     {
       id: 1,
@@ -102,12 +78,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "-",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -117,12 +89,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "Ditangguhkan",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
     {
       id: 1,
@@ -133,11 +101,7 @@ const Riwayat_peminjaman = () => {
       tglKembali: "10-06-24",
       sanksi: "-",
       status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      statusMsg: "SUDAH KEMBALI",
     },
     {
       id: 1,
@@ -147,12 +111,8 @@ const Riwayat_peminjaman = () => {
       tglPinjam: "11-07-23",
       tglKembali: "10-06-24",
       sanksi: "Ditangguhkan",
-      status: 1,
-      hapus: 1,
-      ubah: 2,
-      pesanHapus: "Hapus",
-      pesanUbah: "Ubah",
-      statusMsg: "SUDAH DIVERIFIKASI",
+      status: 2,
+      statusMsg: "BELUM KEMBALI",
     },
   ];
 
@@ -183,14 +143,13 @@ const Riwayat_peminjaman = () => {
         <table className=" relative rounded-[50px] mt-5 max-w-screen-2xl mx-5">
           <thead className="bg-black">
             <tr className="text-sm font-normal text-white">
-              <th className="p-3">No. Booking</th>
+              <th className="">Code-buku</th>
               <th className="p-3">Kode Buku</th>
-              <th className="p-3">Judul Buku</th>
-              <th className="p-3">Tgl Pinjam</th>
-              <th className="p-3">Tgl Kembali</th>
+              <th className="">Judul Buku</th>
+              {/* <th className="p-3">Tgl Pinjam</th> */}
+              {/* <th className="p-3">Tgl Kembali</th> */}
               {/* <th className="p-3">Sanksi</th> */}
-              <th className="p-3 pr-16">Status</th>
-              <th className="p-3 pr-16">Tindakan</th>
+              <th className="pr-16">Status</th>
             </tr>
           </thead>
           <tbody className="[&>*:nth-child(odd)]:bg-gray-300">
@@ -199,30 +158,14 @@ const Riwayat_peminjaman = () => {
                 key={item.bookingId}
                 className="text-sm font-normal text-15px"
               >
-                <td className="p-3">{item.bookingId}</td>
-                <td className="p-3">{item.kodeBuku}</td>
-                <td className="p-3">{item.judulBuku}</td>
-                <td className="p-3">{item.tglPinjam}</td>
-                <td className="p-3">{item.tglKembali}</td>
+                <td className="p-5 pl-9">{item.bookingId}</td>
+                <td className="p-5 px-7">{item.kodeBuku}</td>
+                <td className="p-5 pl-24">{item.judulBuku}</td>
+                {/* <td className="p-3">{item.tglPinjam}</td> */}
+                {/* <td className="p-3">{item.tglKembali}</td> */}
                 {/* <td className="p-3">{item.sanksi}</td> */}
-                <td
-                  className={
-                    item.status === 1
-                      ? "p-3 flex mr-10 w-[200px] justify-center mt-[10px] bg-green-500 text-center text-white font-bold text-15px"
-                      : item.status === 2
-                      ? "p-3 flex mr-10 w-[200px] justify-center mt-[10px] bg-blue-500 text-center text-white font-bold text-15px"
-                      : ""
-                  }
-                >
-                  {item.statusMsg}
-                </td>
-                <td className="">
-                  <button className="mr-1 bg-yellow-500 w-16 h-11 text-white">
-                    Ubah
-                  </button>
-                  <button className=" bg-red-500 w-16 h-11 text-white">
-                    Hapus
-                  </button>
+                <td className="pl-5">
+                  <MdFavorite className="text-4xl text-red-600" />
                 </td>
               </tr>
             ))}
@@ -233,4 +176,4 @@ const Riwayat_peminjaman = () => {
   );
 };
 
-export default Riwayat_peminjaman;
+export default Favorit;

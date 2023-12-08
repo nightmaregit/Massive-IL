@@ -46,7 +46,7 @@ const Peminjaman = () => {
     {
       id: 8,
       title: "Favorit",
-      url: "/favorit",
+      url: "/profil/favorit",
       icon: <HeartIcon />,
     },
     {
