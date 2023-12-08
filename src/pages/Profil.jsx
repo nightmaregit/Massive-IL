@@ -10,7 +10,7 @@ const Profil = () => {
     <div className="flex">
       <Sidebar />
 
-      <div className="flex flex-col w-full ">
+      <div className="flex flex-col w-full mb-96 ">
         <div className="bg-masuk h-16 flex justify-end">
           <div className=" text-white flex  items-center pr-5  gap-[30px]">
             <div>
