@@ -93,7 +93,7 @@ function DataBukuAdmin() {
         </div>
       </div>
 
-    <div className="mx-3 pt-12 pb-12">
+    <div className="mx-3 pt-5 pb-5">
         <button className="flex flex-row border-2 border-black border-solid rounded-lg">
           <div className="p-2 text-[28px]"><FaPlus/></div>
           <div className="p-2 text-xl">Tambah Data buku</div>
