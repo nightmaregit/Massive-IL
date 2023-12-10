@@ -4,8 +4,10 @@ import { RiPencilFill } from "react-icons/ri";
 import { FaRegTrashCan } from "react-icons/fa6";
 import p9 from "../assets/image/buku-pendidikan/p9.png";
 import { FaPlus } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function DataBukuAdmin() {
+  const navigate = useNavigate();
   const items = [
     {
       id: 1,
@@ -94,7 +96,7 @@ function DataBukuAdmin() {
       </div>
 
     <div className="mx-3 pt-5 pb-5">
-        <button className="flex flex-row border-2 border-black border-solid rounded-lg">
+        <button onClick={()=>navigate("/admin/databuku/tambahbuku")} className="flex flex-row border-2 border-black border-solid rounded-lg">
           <div className="p-2 text-[28px]"><FaPlus/></div>
           <div className="p-2 text-xl">Tambah Data buku</div>
         </button>
@@ -135,7 +137,7 @@ function DataBukuAdmin() {
                 <td className=" border-[1px] border-slate-300 border-solid ">
                   <div className="flex justify-center gap-1">
                     <div>
-                  <button className=" bg-yellow-500 p-1 text-black">
+                  <button onClick={()=> navigate("/admin/databuku/editbuku")} className=" bg-yellow-500 p-1 text-black">
                     <RiPencilFill className="text-[20px]"/>
                   </button>
                   </div>

@@ -20,6 +20,8 @@ import DashboardAdmin from "./admin/DashboardAdmin";
 import DataBukuAdmin from "./admin/DataBukuAdmin";
 import Koleksi_pinjaman from "./pages/Koleksi_pinjaman";
 import Favorit from "./pages/Favorit";
+import TambahBuku from "./admin/TambahBuku";
+import EditBuku from "./admin/EditBuku";
 // import Buku_cerpen from './pages/Buku_cerpen'
 // import Buku_komik from './pages/Buku_komik'
 function App() {
@@ -62,6 +64,8 @@ function App() {
         <Route path="/koleksi/komik" element={<Buku_komik />}></Route> */}
         <Route path="/admin/dashboard" element={<DashboardAdmin />}></Route>
         <Route path="/admin/databuku" element={<DataBukuAdmin />}></Route>
+        <Route path="/admin/databuku/tambahbuku" element={<TambahBuku />}></Route>
+        <Route path="/admin/databuku/editbuku" element={<EditBuku />}></Route>
       </Routes>
     </Router>
   );

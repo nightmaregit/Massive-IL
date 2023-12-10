@@ -74,7 +74,7 @@ const Peminjaman = () => {
           <div
             key={item.id}
             className={
-              pathname === item.url
+              pathname === item.url || "/"+muncul[1]+"/"+muncul[2] === item.url
                 ? " flex items-center px-6 py-3 justify-start gap-4 text-[18px] font-semibold cursor-pointer w-[299px]  bg-[#FFF7E9] rounded-tl-full rounded-bl-full text-[#0C356A] transition "
                 : " flex items-center px-6 py-3 justify-start gap-4 text-[18px] font-semibold cursor-pointer w-[299px] text-gray-200 hover:bg-[#FFF7E9] rounded-tl-full rounded-bl-full hover:text-[#0C356A] transition"
             }
