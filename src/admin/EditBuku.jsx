@@ -49,7 +49,7 @@ function EditBuku() {
                     </td>
                     <td className="p-1">
                       <input
-                        className="min-w-full p-2 bg-gray-400"
+                        className="min-w-full p-2 bg-slate-400"
                         type="text"
                         name=""
                         id=""
@@ -81,7 +81,7 @@ function EditBuku() {
                     </td>
                     <td className="p-1">
                       <input
-                        className="min-w-full p-2 bg-gray-400"
+                        className="min-w-full p-2 bg-slate-400"
                         type="text"
                         name=""
                         id=""
@@ -113,7 +113,7 @@ function EditBuku() {
                     </td>
                     <td className="p-1">
                       <input
-                        className="min-w-full p-2 bg-gray-400"
+                        className="min-w-full p-2 bg-slate-400"
                         type="text"
                         name=""
                         id=""
@@ -145,7 +145,7 @@ function EditBuku() {
                     </td>
                     <td className="p-1">
                       <input
-                        className="min-w-full p-2 bg-gray-400"
+                        className="min-w-full p-2 bg-slate-400"
                         type="text"
                         name=""
                         id=""
@@ -179,21 +179,6 @@ function EditBuku() {
                         Batal
                       </button>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-10">
-                <div className=" ">
-                  <div className="flex gap-4">
-                    <button className="bg-blue-600 text-white font-medium w-[100px] rounded-md p-1">
-                      Simpan{" "}
-                    </button>
-                    <button
-                      onClick={() => navigate("/admin/databuku")}
-                      className="bg-red-600 text-white font-medium w-[100px] rounded-md p-1"
-                    >
-                      Batal
-                    </button>
                   </div>
                 </div>
               </div>

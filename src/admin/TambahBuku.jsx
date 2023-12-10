@@ -48,7 +48,7 @@ function TambahBuku() {
                 </td>
                 <td className="p-1">
                   <input
-                    className="min-w-full p-2 bg-gray-400"
+                    className="min-w-full p-2 bg-slate-400"
                     type="text"
                     name=""
                     id=""
@@ -75,7 +75,7 @@ function TambahBuku() {
                 </td>
                 <td className="p-1">
                   <input
-                    className="min-w-full p-2 bg-gray-400"
+                    className="min-w-full p-2 bg-slate-400"
                     type="text"
                     name=""
                     id=""
@@ -102,7 +102,7 @@ function TambahBuku() {
                 </td>
                 <td className="p-1">
                   <input
-                    className="min-w-full p-2 bg-gray-400"
+                    className="min-w-full p-2 bg-slate-400"
                     type="text"
                     name=""
                     id=""
@@ -129,7 +129,7 @@ function TambahBuku() {
                 </td>
                 <td className="p-1">
                   <input
-                    className="min-w-full p-2 bg-gray-400"
+                    className="min-w-full p-2 bg-slate-400"
                     type="text"
                     name=""
                     id=""
