@@ -67,7 +67,7 @@ function TambahBuku() {
               <div className=" ">
                     <div className="flex gap-4">
                         <button className="bg-blue-600 text-white font-medium w-[100px] rounded-md p-1">Simpan</button>
-                       <button className="bg-red-600 text-white font-medium w-[100px] rounded-md p-1">Batal</button>
+                       <button onClick={()=>navigate("/admin/databuku")} className="bg-red-600 text-white font-medium w-[100px] rounded-md p-1">Batal</button>
                     </div>
               </div>
             </div>

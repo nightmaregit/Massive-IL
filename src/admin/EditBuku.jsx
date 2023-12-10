@@ -3,6 +3,7 @@ import ProfilePicture from "../assets/image/profile.png";
 import { useNavigate } from "react-router-dom";
 
 function EditBuku() {
+    const navigate = useNavigate();
   return (
     <div className="flex flex-row  ">
     <Sidebar_admin />
@@ -65,8 +66,8 @@ function EditBuku() {
           <div className="pt-10">
             <div className=" ">
                   <div className="flex gap-4">
-                      <button className="bg-blue-600 text-white font-medium w-[100px] rounded-md p-1">Simpan</button>
-                     <button className="bg-red-600 text-white font-medium w-[100px] rounded-md p-1">Batal</button>
+                      <button className="bg-blue-600 text-white font-medium w-[100px] rounded-md p-1">Simpan </button>
+                     <button onClick={()=>navigate("/admin/databuku")} className="bg-red-600 text-white font-medium w-[100px] rounded-md p-1">Batal</button>
                   </div>
             </div>
           </div>
