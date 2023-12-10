@@ -9,7 +9,10 @@ import {
   StudentIcon,
 } from "../assets/icons";
 import Logo from "../assets/logo-bright.png";
+import { FaBook } from "react-icons/fa6";
 import { useLocation } from "react-router-dom";
+import { LuHome } from "react-icons/lu";
+import { GiBackwardTime } from "react-icons/gi";
 
 const Peminjaman = () => {
   const navigate = useNavigate();
@@ -23,43 +26,37 @@ const Peminjaman = () => {
       id: 1,
       title: "Dashboard",
       url: "/admin/dashboard",
-      icon: <HomeIcon />,
+      icon: <LuHome />,
     },
     {
       id: 2,
-      title: "Profil",
-      url: "/admin/profil",
-      icon: <StudentIcon />,
+      title: "Data Buku",
+      url: "/admin/databuku",
+      icon: <FaBook />,
     },
     {
       id: 3,
-      title: "Layanan Peminjaman",
+      title: "Data Anggota",
       url: "/peminjaman",
-      icon: <StatusIcon />,
+      icon: <StudentIcon />,
     },
     {
       id: 4,
-      title: "Status",
-      url: "/status",
-      icon: <StatusIcon />,
-    },
-    {
-      id: 5,
-      title: "Buku dipinjam",
-      url: "/buku-dipinjam",
+      title: "Data Peminjaman",
+      url: "/peminjaman",
       icon: <PlusIcon />,
     },
     {
-      id: 6,
-      title: "Favorit",
-      url: "/favorit",
-      icon: <HeartIcon />,
+      id: 4,
+      title: "Data Pengembalian",
+      url: "/status",
+      icon: <GiBackwardTime className="text-[20px] font-extrabold"/>,
     },
     {
-      id: 7,
-      title: "Tentang Kami",
-      url: "/about",
-      icon: <ChatIcon />,
+      id: 5,
+      title: "Administrator",
+      url: "/buku-dipinjam",
+      icon: <StudentIcon />,
     },
     {
       id: 8,
@@ -70,7 +67,7 @@ const Peminjaman = () => {
   ];
 
   return (
-    <div className="w-[345px]  bg-[#0C356A] flex flex-col">
+    <div className="w-[345px] h-screen bg-[#0C356A] flex flex-col">
       <img src={Logo} alt="logo" className="h-20 object-cover mt-4" />
       <div className="flex flex-col pt-10 gap-[10px] items-end  justify-center font-medium leading-normal text-base">
         {items.map((item) => (
@@ -78,12 +75,12 @@ const Peminjaman = () => {
             key={item.id}
             className={
               pathname === item.url
-                ? "rounded-tl-full rounded-bl-full bg-[#FFF7E9] pl-[35px] w-72 pt-[17px] pb-[19px] pr-16 text-[#0C356A] select-none"
+                ? " flex items-center px-6 py-3 justify-start gap-4 text-[18px] font-semibold cursor-pointer w-[299px]  bg-[#FFF7E9] rounded-tl-full rounded-bl-full text-[#0C356A] transition "
                 : " flex items-center px-6 py-3 justify-start gap-4 text-[18px] font-semibold cursor-pointer w-[299px] text-gray-200 hover:bg-[#FFF7E9] rounded-tl-full rounded-bl-full hover:text-[#0C356A] transition"
             }
             onClick={() => navigate(item.url)}
           >
-            <div className={pathname === item.url ? "hidden" : ""}>
+            <div className={pathname === item.url ? "" : ""}>
               {item.icon}
             </div>
             <span>{item.title}</span>

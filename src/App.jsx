@@ -17,7 +17,7 @@ import Bukti from "./pages/bukti";
 import Profil from "./pages/Profil";
 import MasukSebagai from "./pages/MasukSebagai";
 import DashboardAdmin from "./admin/DashboardAdmin";
-import ProfilAdmin from "./admin/ProfilAdmin";
+import DataBukuAdmin from "./admin/DataBukuAdmin";
 import Koleksi_pinjaman from "./pages/Koleksi_pinjaman";
 import Favorit from "./pages/Favorit";
 // import Buku_cerpen from './pages/Buku_cerpen'
@@ -61,7 +61,7 @@ function App() {
         {/* <Route path="/koleksi/cerpen" element={<Buku_cerpen />}></Route>
         <Route path="/koleksi/komik" element={<Buku_komik />}></Route> */}
         <Route path="/admin/dashboard" element={<DashboardAdmin />}></Route>
-        <Route path="/admin/profil" element={<ProfilAdmin />}></Route>
+        <Route path="/admin/databuku" element={<DataBukuAdmin />}></Route>
       </Routes>
     </Router>
   );
