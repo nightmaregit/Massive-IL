@@ -36,7 +36,7 @@ const Profil = () => {
             <div className="relative w-[428px] h-[183px] rounded-[20px] bg-[#FFF7E9] mt-11">
               <div className="absolute left-0 bg-[#4D44B5] w-6 z-10 h-[183px] rounded-tl-[20px] rounded-bl-[20px]" />
               <div className="ml-[57px] mt-[37px] flex flex-col items-start justify-center">
-                <h4 className="font-semibold leading-normal text-lg text-masuk">
+                <h4 className="font-bold leading-normal text-2xl text-masuk">
                   Status anggota
                 </h4>
                 <p className="font-normal text-base text-gray-400 mt-[5px]">
@@ -59,13 +59,13 @@ const Profil = () => {
             >
               <div className="absolute left-0 bg-[#FB7D58] w-6 z-10 h-[183px] rounded-tl-[20px] rounded-bl-[20px]" />
               <div className="ml-[57px] mt-[37px] flex flex-col items-start justify-center">
-                <h2 className="font-semibold leading-normal text-3xl text-masuk w-[221px]">
+                <h2 className="font-bold leading-normal text-2xl text-masuk w-[221px]">
                   Koleksi Pinjaman
                 </h2>
               </div>
 
               <div className="rounded-full w-[60px] h-[60px] bg-[#C1BBEB] absolute right-[62px] top-[61px] flex items-center justify-center text-3xl font-semibold">
-                8
+                10
               </div>
             </div>
           </div>
@@ -76,12 +76,14 @@ const Profil = () => {
               <div className="relative w-[428px] h-[183px] rounded-[20px] bg-[#FFF7E9] mt-11">
                 <div className="absolute left-0 bg-[#4D44B5] w-6 z-10 h-[183px] rounded-tl-[20px] rounded-bl-[20px]" />
                 <div className="ml-[57px] mt-[37px] flex flex-col items-start justify-center">
-                  <h4 className="font-semibold leading-normal text-lg text-masuk">
-                    Denda
+                  <h4 className="font-bold leading-normal text-2xl text-masuk">
+                    Favorit
                   </h4>
                 </div>
 
-                <div className="rounded-full w-[60px] h-[60px] bg-[#C1BBEB] absolute right-[62px] top-[61px]" />
+                <div className="rounded-full w-[60px] h-[60px] bg-[#C1BBEB] absolute right-[62px] top-[61px] flex items-center justify-center text-3xl font-semibold">
+                  10
+                </div>
               </div>
 
               <div
@@ -90,7 +92,7 @@ const Profil = () => {
               >
                 <div className="absolute left-0 bg-[#FB7D58] w-6 z-10 h-[183px] rounded-tl-[20px] rounded-bl-[20px]" />
                 <div className="ml-[57px] mt-[37px] flex flex-col items-start justify-center">
-                  <h2 className="font-semibold leading-normal text-3xl text-masuk w-[221px]">
+                  <h2 className="font-bold leading-normal text-2xl text-masuk w-[224px]">
                     Riwayat Peminjaman
                   </h2>
                 </div>
